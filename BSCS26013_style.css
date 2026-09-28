@@ -1,0 +1,78 @@
+body
+{
+  background-color: black;
+  color: white;  
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.textoverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product ul li h4
+{
+  background-color: yellow;
+}
+.product ul
+{
+  background-color: black;
+}
+.product ul li img
+{
+  border-color:brown;
+  border-style: solid;
+  object-fit:contain;
+  width: 250px;
+  height: 250px;
+}
+.product ul li
+{
+  border-color: rgb(9, 29, 130);
+  border-style: solid;
+  color: black;
+  margin:5px;
+  padding: 20px;
+  background-color: white;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: blue;
+}
+ul li{
+   float:left;
+}
+ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover{
+  color:red;
+}
+button:hover{
+  color:yellow
+}
+.contact
+{
+  border-style: solid;
+  border-color: white;
+  background-color: brown;
+}
+.contact img
+{
+  object-fit: contain;
+  width:64px;
+  height:64px;
+}
